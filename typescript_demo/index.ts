@@ -77,3 +77,13 @@ console.log("Circle Perimeter:" + calculatePerimeter(circle));
 console.log("Square Perimeter:" + calculatePerimeter(square));
 console.log( "Retangle Perimeter:" + calculatePerimeter(retangle));
 
+
+// Date
+const date = new Date();
+
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+
+console.log(`Date: ${month}/${day}/${year}`); // Date: 9/15/2021
