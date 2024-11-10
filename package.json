@@ -4,7 +4,8 @@
   "description": "ts-design-pattern",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html"
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html",
+    "run" : "tsc typescript_demo/index.ts && node typescript_demo/index.ts"
   },
   "keywords": [],
   "author": "Yiming Gao",
